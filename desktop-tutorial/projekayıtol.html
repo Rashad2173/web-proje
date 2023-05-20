@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt ol Sayfası</title>
+</head>
+<body>
+    <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
+    <style>
+        body {
+        background-image: url("https://www.ccngroup.com.tr/medya/2020/05/ccn-flame-towersi-004-450x307.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .kayıtol {
+            background-color: #6d44dc;
+            background-size: auto;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: right;
+            width: 400px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    </style>
+   <div class="kayıtol">
+    <h1>KAYIT OLUNUZ</h1>
+    <form action="proje_giriş.php"method="post">
+    Adınız 
+    <label for="İsminiz"Kullanıcı adınızı giriniz></label>
+    <!-- place holder boşduqda söz yazmaqqq -->-
+    <input id="isim" type="text" placeholder="Adınızı giriniz..."><br>
+    Soyadınız 
+    <label for="soyadi"Soyadınızı girinizi></label>
+    <input type="text" id="soyadi"  placeholder="Soyadınızı giriniz..."><br>
+    Mail hesabınız 
+    <input type="email" id="mail" placeholder="Mailinizi giriniz..."> <br>
+    Öğrenci numaranız 
+    <label for="Öğrenci numaranız"öğrenci numaranızı giriniz... ></label>
+    <input type="text" id="Öğrenci_numaranız" placeholder="B221210570"><br>
+    Şifreniz 
+    <label for="Şifreniz"Şifrenizi giriniz...></label>
+    <input type="password" id="Şifreniz" placeholder="Şifrenizi giriniz..."><br>
+    Cinsiyetinizi seçiniz <br>
+    <input type="radio" name="cinsiyet" value="Kadın">Kadın<br>
+    <input type="radio" name="cinsiyet"value="Erkek">Erkek <br>
+    Fakulteniz
+    <select name="Fakulteniz" ><br>
+        <option value="Fakultenız">Bilgisayar Mühendisliği</option>
+        <option value="Fakulteniz">Elektrik Mühendisliği</option>
+        <option value="Fakulteniz">Yazılım Mühendisliği</option>
+        <br>
+    </select>
+<input type="submit" value="Kayıt ol">
+
+
+
+    
+
+    </form>
+
+
+   </div>
+    
+</body>
+</html>

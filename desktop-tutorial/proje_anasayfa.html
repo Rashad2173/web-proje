@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bakü City</title>
+    <script>
+      var hosgeldinizMesaji="Hoş Geldiniz";
+      alert(hosgeldinizMesaji);
+
+    </script>
+    <style>
+    
+    .slider {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+      margin: auto;
+      border: 1px solid #ccc;
+    }
+    .slider-content {
+      position: absolute;
+      width: 300%;
+      left: 0;
+      animation: slide 10s   infinite ;
+
+    }
+    .slider-item{
+      width: 20%;
+      float: left;
+    }
+    @keyframes slide{
+      0% {
+        transform: translateX(0px);
+      }
+      10% {
+        transform: translateX(-500px);
+      } 
+      20% {
+        transform: translateX(-500px);
+      } 
+      30% {
+        transform: translateX(-1000px);
+      } 
+      40% {
+        transform: translateX(-1000px);
+      } 
+      50% {
+        transform: translateX(-1500px);
+      }
+       60% {
+        transform: translateX(-1500px);
+      } 
+      70% {
+        transform: translateX(-2000px);
+      }
+       80% {
+        transform: translateX(-2000px);
+      }
+       90% {
+        transform: translateX(-2500px);
+      }
+      100% {
+        transform: translateX(-2500px);
+      }
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  nav li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+  }
+  body {
+        background-image: url("https://www.ccngroup.com.tr/medya/2020/05/ccn-flame-towersi-004-450x307.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .content {
+        background-color: white;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      .about {
+        background-color: rgb(225, 219, 219);
+        padding: 20px; 
+        margin-top: 20px;
+       
+    }
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+      
+</style>
+
+<nav>
+  <ul>
+    <li><a href="#Baku_Şehri"> Baku Şehri</a></li>
+    <li><a href="#Baku_Tarihi">Baku Tarihi</a></li>
+    <li><a href="#Miraslarımız">Miraslarımız</a></li>
+    <li><a href="#Hakkında">Hakkında</a></li>
+  </ul>
+</nav>    
+    </style>
+    
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider-content">
+        <div class="slider-item">
+          <img src="https://gezipgordum.com/wp-content/uploads/2016/11/Baku-gezilecek-yerler.jpg" alt="" width="450"height="350">
+        </div>
+        <div class="slider-item">
+          <img src="data:image/jpeg;base64,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" width="450"height="350" alt="">
+        </div>
+        <div class="slider-item">
+          <img src="https://gezipgordum.com/wp-content/uploads/2016/11/Nizami-Caddesi-Baku.jpg" width="450"height="350" alt="">
+        </div>
+        <div class="slider-item">
+          <img src="https://cdn.ytur.net/fit-in/517x344/filters:quality(100)/filters:format(webp)/post/alev-kuleleri-220330-184111-7113.jpg" width="450"height="350" alt="">
+        </div>
+        <div class="slider-item">
+          <img src="https://gezipgordum.com/wp-content/uploads/2016/11/Heydar-Aliyev-Center-Baku.jpg" width="450"height="350" alt="">
+        </div>
+        
+      </div>
+    </div>
+    <h1>Baku</h1>
+    <div class="about" id="Baku_Şehri">
+    <h1>Baku ile ilgili genel bilgi</h1>
+    <p>Baku (veya Bakü), Azerbaycan'ın başkenti ve en büyük şehridir. İşte Baku hakkında genel bilgiler:
+
+      Baku, Azerbaycan'ın doğu kesiminde, Hazar Denizi'nin kıyısında yer almaktadır.
+      Şehrin nüfusu 2021 verilerine göre yaklaşık 2.3 milyon kişidir, bu da Azerbaycan'ın en kalabalık şehri yapmaktadır.
+      Baku, tarihi ve modern mimari unsurları bir araya getiren bir şehirdir. Eski Şehir (İçeri Şehir) olarak da bilinen UNESCO Dünya Mirası Listesi'nde yer alan Baku, tarihi sokakları, kalesi, camileri ve tarihi binalarıyla ziyaretçilere zengin bir kültürel deneyim sunmaktadır.
+      Şehirde bulunan Şirvanşahlar Sarayı, 15. yüzyılda inşa edilmiş önemli bir tarihi yapıdır. Aynı şekilde, Kız Kulesi (The Maiden Tower) da Baku'nun sembolik bir yapılarından biridir.
+      Baku, enerji sektöründe önemli bir rol oynamaktadır. Hazar Denizi'ndeki petrol ve gaz kaynaklarına yakınlığı nedeniyle, şehir petrol endüstrisinin merkezlerinden biri olarak bilinir.
+      Azerbaycan mutfağına özgü lezzetleri deneyebileceğiniz birçok restoran ve kafe Baku'da bulunmaktadır. Pilavlar, kebaplar, dolmalar, pide çeşitleri gibi geleneksel Azerbaycan yemekleri lezzetli seçenekler arasındadır.
+      Baku, kültürel etkinlikler, festivaller ve sanat etkinlikleri açısından zengindir. Müzeler, galeriler, tiyatrolar ve konser salonları şehirdeki sanatsal ve kültürel yaşamın önemli unsurlarıdır.
+      Baku'da gezilecek yerler arasında Flame Towers (Ateş Kuleleri), Heydar Aliyev Kültür Merkezi, Nizami Caddesi, Fountains Square (Çeşmeler Meydanı) ve Baku Bulvarı da yer almaktadır.</p>
+    <h2>Büyük Lider Haydar Aliyev</h2>
+    <a href="https://tr.wikipedia.org/wiki/Haydar_Aliyev">
+      <img src="https://www.azernews.az/media/2022/05/10/h_aliyev.jpg" alt="Heydar Aliyev Fotoğrafı" width="500" height="500"></a>
+      <a href="https://tr.wikipedia.org/wiki/Haydar_Aliyev">
+        <img src="https://heydaraliyevpalace.az/upload/others/Heyder-Eliyev.jpg" alt="Heydar Aliyev Fotoğrafı" width="500" height="500"></a>
+      <p>
+        
+        Heydar Aliyev, 20. yüzyılın önemli siyasi figürlerinden biridir. 10 Mayıs 1923 tarihinde Azerbaycan'ın Nakhchivan Özerk Cumhuriyeti'nde doğmuş ve 12 Aralık 2003 tarihinde Azerbaycan'ın başkenti Bakü'de hayatını kaybetmiştir.
+
+        Heydar Aliyev, Azerbaycan'da siyasi kariyerine 1969 yılında başlamıştır. Sovyetler Birliği döneminde Komünist Parti'nin önde gelen isimlerinden biri olmuş ve Azerbaycan SSC Devlet Başkanlığı görevini yürütmüştür. 1991 yılında Sovyetler Birliği'nin dağılmasının ardından Azerbaycan'ın bağımsızlığını ilan etmesiyle birlikte, 1993 yılında Azerbaycan Cumhuriyeti Devlet Başkanı olarak göreve gelmiştir.
+        
+        Heydar Aliyev, Azerbaycan'ın siyasi, ekonomik ve sosyal dönüşümünde önemli rol oynamıştır. İktidara geldiği dönemde ülkenin içinde bulunduğu zorlu koşulları aşmak ve ekonomiyi güçlendirmek için çeşitli politikalar uygulamıştır. Ayrıca Azerbaycan'ın enerji kaynaklarına odaklanarak enerji sektöründe reformlar yapmış ve uluslararası ilişkilerde aktif bir rol üstlenmiştir.
+        
+        Heydar Aliyev, Azerbaycan'ın güçlü liderlerinden biri olarak kabul edilmektedir. Ülkesinin içinde bulunduğu zorlu coğrafi ve siyasi koşullarda istikrarı sağlama çabaları, uluslararası alanda da dikkat çekmiştir. Ayrıca Azerbaycan'ın bağımsızlık döneminde ülkenin ulusal güvenliği, ekonomik kalkınma ve uluslararası ilişkiler gibi birçok alanda izlediği politikaların şekillenmesinde büyük etkisi olmuştur.
+        
+        Heydar Aliyev, Azerbaycan halkı arasında büyük saygı ve sevgi görmüş, "Ulu Önder" ve "Milli Lider" olarak anılmaktadır. Azerbaycan'da düzenlenen birçok anma etkinliği, anıt ve yapılarla da anısını yaşatmaktadır. Aynı zamanda Aliyev ailesi, Azerbaycan siyasetinde önemli bir rol oynamaya devam etmektedir.</p>
+        <h2>Azerbaycanın Haritası</h2>
+        <a >
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Azerbaijan%2C_administrative_divisions_-_de_-_colored.svg" alt="Azerbaycan Haritası" width="500" height="500"></a>
+    
+  
+  
+  
+  
+  </div>
+    
+    <div class="about" id="Miraslarımız">
+      <h1>Miraslarımız</h1>
+     <h2>1. Şirvanşahlar Sarayı (Shirvanshahs’ Palace)</h2>
+    <a href="https://az.wikipedia.org/wiki/%C5%9Eirvan%C5%9Fahlar_saray%C4%B1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoTWojpnqMQzk5h820V-h9-9fZpPxeCH1sqnVhW1MPxQ&s" alt="Resim Açıklaması" width="500" height="500">
+      
+    </a>
+    <a href="https://az.wikipedia.org/wiki/%C5%9Eirvan%C5%9Fahlar_saray%C4%B1">
+      <img src="https://azerbaijan-is.s3.amazonaws.com/media/image/2021/5/31/90d9892299c601fe.jpg" alt="Resim Açıklaması" width="500" height="500">"></a>
+     <p> Bakü gezisi ile ilgili araştırma yaparken dikkatinizi çekecek ilk önemli durakların başında Şirvanşahlar Sarayı gelecektir. Saray, 15. yüzyılda inşa edilmiştir ve ismi bölgedeki ilk krallığın başkenti olan “Şirvan” isminden gelmiştir.
+
+      Sarayın ana binası 52 odadan oluşan 2 katlı bir yapıdır. Sarayın ana binası pek karmaşık olmasa da ihtiyaç doğdukça yapılan binalarla yapı bir nebze karmaşık bir hale bürünmüştür. Kompleks şu anda ana binanın yanı sıra iki cami, Kral Halilullah ve ailesine ait türbeler, hamam, doğu kapısı (Murad Kapısı), taş frizleri ve bilim adamı Sayid Yahya Bakuvi’nin türbesi gibi kısımlardan oluşmaktadır.
+    </p>
+    <h3>2. Kız Kulesi (The Maiden Tower)</h3>
+    <a href="https://az.wikipedia.org/wiki/Q%C4%B1z_qalas%C4%B1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiFAYXuRuZ4_qE9WY4UQSI2u5_dxJLSnNmgAB4U0l-sA&s"  width="500" height="500">
+      
+    </a>
+    <a href="https://az.wikipedia.org/wiki/Q%C4%B1z_qalas%C4%B1">
+      <img src="https://metbuat.az/images/metbuat/images_o/830078.jpg"  width="500" height="500">
+      
+    </a>
+
+    <p>Bakü gezisi hakkında araştırma yaptıysanız muhtemelen Kız Kulesi’ni duymuş olmalısınız. Kız Kulesi (“Qiz Qalasi”) şüphesiz Bakü’nün en ikonik tarihi yerleri arasında bulunmaktadır ve şehrin en çok ziyaret edilen ikinci yapısı konumundadır. 27 metre yüksekliğe sahip olan yapı, 2000 yılında UNESCO Dünya Mirası Listesi’ne dahil edilmiştir. Kule toplamda 8 kattan oluşmaktadır ve 12. yüzyılda şehrin savunulması için kullanılmıştır. Adını kaleden kendini atan bir kızdan aldığı rivayet edilmektedir. Söylenene göre geçmişte bir kral kızıyla evlenmek istemişti ve kızı, kralın bu isteğinden utanmıştı. Kız, babasından bir kule inşa ettirmesi istemiş ve kule inşa edildikten sonra da tepesine çıkarak kendisini atmıştır. Tabi bu hikayenin gerçek olmadığı düşüncesi ülke genelinde daha hakimdir ve burasının tarih boyunca düşmanlar tarafından işgal edilemediği ve bir “kız” kadar saf kalabildiği için buraya bu ismin verildiği belirtilmektedir.
+
+      Günümüzde restore edilen haliyle bir rehbere ihtiyaç duyulmadan kule ile ilgili birçok bilgi gezi sırasında ediniliyor olsa da birçok ziyaretçi kulenin eski halinin daha etkileyici olduğunu düşünmektedir.</p>
+      <h3>3.Şehitler Hıyabanı (Şehitlik)</h3>
+      <a href="https://tr.wikipedia.org/wiki/%C5%9Eehitler_Hiyaban%C4%B1">
+        <img src="https://pbs.twimg.com/media/FUTzFLPWAAAb5uM.jpg"  width="500" height="500">
+        
+      </a>
+      <a href="https://tr.wikipedia.org/wiki/%C5%9Eehitler_Hiyaban%C4%B1">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcVFRUXGBcZGhodGhkZGhogGBoZGR0YHRkZGBkgICwjGh0pHhkdJTYkKS0vMzM0ICI4PjgyPSwyNC8BCwsLDw4PHRISHi8pIikyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIzMjIyMv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABwUGAgMEAQj/xABNEAACAQIEAgUHBwsBBwIHAAABAhEAAwQSITEFQQYTIlFhBzJxgZGhsRQjQlJUctEIFRczYpKTo7LB0vAkRFNjorPhgvE0Q2RztMLj/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAJhEAAgIBAwQCAgMAAAAAAAAAAAECESEDEjEEQVFhMoETcSIz8P/aAAwDAQACEQMRAD8Ac1FFRvEuJiyyKUZg+btDZSsaMeUzp6DQEjRUOOPJ9RvdWX58T6je6rtZLRLUVDHpAn1G91A6QJ9RvdTaxaJmioU9IU+o3ur0cfT6je6m1jciZoqJ/PifVb3V4OPJ9RvdTaxaJeiok8bX6je6vRxtfqN7qUxaJWiov88r9VvdWDcdQfQb3Upi0S9FQw4+n1G91H5+T6je6m1i0TNFU/jPThcOyg4a64IJLIUyqBuWk6ADX1Gq5+mrC/ZcR/L/AMvCpRRqUUqv024T7Nf/AJf+VH6bcJ9mv/y/8qAatFKr9NuE+zX/AOX/AJUfptwn2a//AC/8qAatFKr9NuE+zX/5f+VH6bcJ9mv/AMv/ACoBq0Uqv024T7Nf/l/5Ufptwn2a/wDy/wDKgGrRVR6FdOLXEmui3buJ1QQnPl1z5oiCfq1bqAKKKKA8qF6RbJ/6v7VNVDdIRIT0t/arHkj4IAp41x3cYivkJPiR5qk7BjyJrVx7iNvD22ZrgRolZB13MDlmIVoHhUfh76FQygtbfKxVjJfQHrE17Y7xsfhZzawj09L08dRNyfpJckvjcYloAAZ7j6JbG7HvJ5KOZrzB4tbq5gCpBKup3VhuPH0ioPEIrF7jspAhjeEg24Byra8ZI05zrrXi3rudEWVurEW1UCzcRiS91xErPMHUEab0jK8nSfSKMdvfmyyA16tbBbrw2zXW0fOoxNeTWUe6vM3hQAt01kb9Y5x3V4SpqUAN41ra5W3q176xa140wTJgtysxcNYxFeq1aIc/FcL19m5amOsQrMd9K1+hF61me4jXEWDltlQWAktJJ0EAbSTNN5AKp3E+n+GS51aS6q6B3jslSzC5lHMgZSO/XurEq7m1fYo+O6KYhy9y3YyLqxt5pKat2cxADQANuRFVciKbHSnpTauYUrhr0XD2hGhITzlJ282dOcbUrLzSZiJGvj41iVdjUW2aaKKKyaCgCivQaA8NFFFAOH8n7z8b92z8btOukp+T95+N+7Z+N2nXQBRRRQHlUzyh4x7VtLubLatrce5DBWdh1YtWlfdcxY6gToPXc6VXlydzawllWCrcuvmkkAlQuXNHKWJ9lAUbiuLv4ovfwy3Gw6MEi63WA5VVmOVySm8yCNPGprohZVbLsf8AZwoknMpEEFyFJJkFQWUklhBBmATXsdhH4eFQtf6m8iFh5oLjKzxB0IGg1mR3RXLhuJYfJdyrfC5EzdonQXLWnn92YDbTSdarXZlhOUHcWNDgl8XbdxXthLQIQKxENOh1MEnMY1AM134DhC2pCgktqWZpaBoqz3AQAKWXRnpVhrFxiyYh5IFtc+ig5AQVZ8syGIO+u9NPBcStXWuBQx6tgpMyCSoJAIMcxzPvFajRJak8pt559meQgx3ViL6hxbJhshfwCKQCxOwEsK18QxqWgpMlnYJbXm7tsB4bknkAaX/STjr28digUz21w6WbjKxVkW4qsTbOuUm4wEEGYAJAqyZzWSV6Fcft3GxAYtnuYhiiwztlaFQM6yGCqqrmmBl8ZN0alv0Rx+EtZUtWb128JuM5ARLakDcu8BFDAlv/AFd0MYXQQCCCCAQQZBB5g8x40iVmLEVpYCtjvWGYVtGWYxRrWRYVwYrHCQoMHQzMTsQPDcaGsTmoLJYwcng7Cp514Kg/lg3D3NDp22MtGuhOv/mpXCYxbnge7v8AR+FZ09ZSwzU9JxydN8E23A3KtHsNfPN5CC2mxIkbbmvogqCCO8EeFKHpb0Ru4dnurDWieXnAsRoRG0k+ytzRmDKfWbvMeAitiYdmYKiszH6MazrIA57V3cZ4JdwzAXFMEDtR2S0agHnBBHjE7Vzo6EVRQRQBUAUUUUAUUAUEUA4fyfvPxv3bPxu066Sn5P3n437tn43addAFFFFAFKD8oD9Xg/v3fhbpv0n/AMoH9Xg/v3fhboBOXsQ76uxaNgTtJmFGwHorpU3LaZQxXrhqsxmQebm8CSY9E91RpFdVtpnMV1iS24A2jntyFAakkNvlIO+sgj0agzTI6J9KxbsX3vFiVZmW2qku5ftZnuGScsZcx0AKydVFLi48sSB6O/0nxr1bzAEBiAQQQCdQYJB79h7B3VU6I1Y1+jnFPluN+UbLbtlbSAMcrlVLM7ER5zFdIJ03Amlg+Nf52CF63zxlE+cHyhjLKMw79YEzUrg+PvaKKHuKtu3cyKGDgXrlt1zg9nLq+4kqNidZrp7++jYSLBwDFn5RZRUt3CzKFV8+VHLPlEEkGC/nFWidNRNO1UYKA0SAAcoIWQBOUHYdw7q+fsLicksmZbmmS4Hgp9bZZJgxMiKdnRjFXLmHQ3VKuuhnaPohRMwFyjXUkE85O4MzIlSlY5az1qI4px23aJSe2Dr+HefZVnNQVszGDk6RnxPEFdB3H4GqpiLpJg+Op/1rvNeY7iNy4xJQk7CVI08NawGJuER1ZG/IAaxI518zU1N0m7PdDTpJGOJxMFdTsCSBpJGZj6ZMeoVsscQIBM7BTPPz0GntGvhXPeu3QSchI0jbfbkPCtZxLHUofZPfpt3fGs2boYeAxIuW1f6w94kH3itra6ETz9Y2NUPA9IXskBp6vN5pWNJlsp5E69wqy8V6RrbwgxNtC6mQNNQdRJ5QGHfETX0tLVUl7PFqabizrt8FshlcW1zLsY19dQ3TW1YcKmJVxbWT1q6FH7MaHzwQTMSRA051Usd5SMS4ItqluQNdyDzidKr3G+kF7FZetM5RAiQu++XaY0netORlRNHE76M3YEgE5WzEynJcp82IOnjz0NR1FFczYUUUUB6poLUKa8oBw/k/efjfu2fjdp10lPyfvPxv3bPxu066AKKKKAKT/wCUD+rwf37vwt04KT/5QP6vB/fu/C3QCTooooD2a9VorGigNykSNNOf/jlXVbtWnIVS1tiYUuwZCe5iFXJrzgjXWBrUfW3LoaAkuDdXbxCNiC6qjEsF/WZlmAo5HNGp8aaeA6bWLioIfrHLBLanPcZQQLZZtlZp+k2hBk0peL3Fa87KwYEjtAGGMDM2oBkmT6auvkyshr7XM4zdXlyOZuGIGdNOygAybnu9GovJmSwMpt6qvHkdLzOlu3BCkuwOYkAA5TsCIFWZXDMwUyUMN4NAOUnvggxykVG8cHZTwY/Cp1EVKBdFtTKhiLTOxYXLimZjO0D1bH2VmiM4yudJ+j9L01neiGEnc6aRvRw1wqMxOgaT36Ba+W492e+zitYTMSSoQiApXQkADcD3jWsbuHZjLXG02CsQPYDNdXD8cjghGJILA6Rr3CteHHaPcGf2a7++tSXciZyNYuAQrBhuc+ZljXkTOw76YPBMMFw1pGQDsyVgwCxLHQ6jVjVWtLJ2EZhPonUVeC8SSYHea9nSR5kebqJcIVXTro49u4963bAsmJaRozMF2nQSR7T6qUykb0z/ACi8Zt3MJbS1cV1e4CxUgwAHygjfVgY+6aWpaddI5/8At+Fd584OMXg0UUUVk0FE0V0YYW5OfNt2QsanuJOwPfr6KA56KyYa/wBqF2NAN/8AJ+8/G/ds/G7TrpKfk/efjfu2fjdp10AUUUUAUn/ygf1eD+/d+FunBSf/ACgf1eD+/d+FugEnRRRQAaKKKAK34e5lbNEkTHpjQxBmN60UCgO5ryqMqqjTHaYHMDKkgGQCOzGo2J57TvRLpAMIl0lGJuDLnXs5Sqsba5+Utvpt6NKpNdmDwr3OwiszbhV1Oxns7nYajbWgG30H4TesIwuMvVt21ILFnzgatJ7BgAxlnXfvsOMthrbLPIx6RqD7a1cFs21w1oW0yKbanJlykFgC2YEk5pmZJ9Jroupoa3SqjN5sol4jt6fSOvPzuWv9q4MQcmHuNOzk+oKCB7QKk8Wg18QCdNJJ1rTgFDZAduvQQRv2kkeyvkwy69n0JcGy70ZXCJZZWYswC3ZMg3dWle4QWX0KvMmeTD+cdfpP8Wq59IWHVHX6Sn16j+59tUrDEZiTtmb/APb216OoSi3Rx0XaJ7o/h5uEt9AZh96YHs1PpAqI8p+KcC2hVgplkdWI7QIzKyxBGiEayDU/0baWuehamsfgbd+21u4gZGHPcHkVPIjka9HTpfjVHHV+Yhr+LZkVCdBrsBJ2EkedGsE69pq5KY/GPJ9at2S1u65uG5bVS8ZYuOluDA5ZwZ8DUZe6EYlVVGyBS7dpS7HMFMEiAFBjcxynlXTazFop3VnLPL4er1jXxrWBTCbybuEJW8C5CgKRlAJZRBILSN+7ltU90b6E2LaA3kFy7BDjMTb100XQGNdxofUau1k3IUt+yVYowhgYIkHX0jSuo8LuBc2UecUyyM5ZQGaF3MAiY76n+OdGQcRjFww0sG0RbEtKuBmCnUllYjs92b6sVcrNmz1Y6vDWwQ6vbmBbtObdlGhxmzv1iHVQ2sTtUwuS57FDHRO78nF/R5lerty1xXzMoBABESAZnYHwnbgOi+vzrFiAS1uyVZhGp6y4fm7caaST4Vd7qErFy5KkqMhJS2dVGqg9Zc0bUM0E8ta5nxqAdXGh07QCooZMsC2IgFlbeuc5pGoplw8lnDhZ68KttBFsZUDEg9s9q42rnXuAE0w6Xvkz4l1z32kkFbTDSFkm4rD0gqRuaYVWLtB8hRRRWiHtJ/8AKB/V4P7934W6cFJ/8oH9Xg/v3fhboBJ0UUUAUUUUAUUUUAVceg3F0tXFUWELkkNdh2fI0A6AGABPmiWMDnVOq9eTrD2s5uks95ScttFmEABLuSsCTosENI2INVEY1GatTsYrIvIB11AOuh1HMcjWotI08R7CR/aur4MFPximdAfNX41z4IGbZ/59v1dpK6Mek6zHZX41z4Uaof8An2vR5yV8XS+X2j6c+C1dIW+aP3l+NUmwSSeerfFj66unHj82fvL8ao+GmTod2+LV6er+T/Rw6f4/ZaejLdq56APhVjDmq10cEM/iB/arAH592vsr1dJ/Ujz6/wA2cnSB/mD4XcP/APkWak81QfSW/FsIAWLNabswYVL9glomSIJ1AIHOKzxPFzHzagT9K5oo0kkAGXj1DuJrq5JcnNJtYJPEgFZLZf2uWmsETB571FpxK4NQEZsignUBo+kWgluZHLU61D3+Jgv2i1wiCs6IJIExoBHa10PjrXHjMU7BgXCamBpodw3agTsZg1xlq+DpGHklL725a5chmaDcgAK2SACy7GAPpFo5RXB+dGKnIswNx3L2iC55gwNIgnw14rTm4Mypcc6GSp1MAAS0Aaydo1rot8IvalsiKJMsc3exXkBrGv4a8t0nwbpI4XZ3JUvvPmatPaXVuUXLVsydusPKsLwU5iArTPnNOha04GXl21YeljUt+brKMvW35JyqAPNLHkAJ3C7ejurnwnEsAH6q3bZnAuMSUjzEdnBLagnIvLcCr+OT5G9di6eSi8WfFCDAyFTlCiGa7KxyYNmme8eksulh5IuPDFPigLQthRaPnSTOca6CPN95pn10iqVGW7PaKKK0QKT/AOUD+rwf37vwt04KT/5QP6vB/fu/C3QCTooooAooooAFFbbluDBjYHQg6MARt4Hblsda1RQHRg8O1x1VVLEkaDc69/KnTwDhS4e2oCIjOQWCDaFMKWPacgTJPOYA2qoeTHBkNduy0QFgDs66yWO57gPSeVMB2g2/FyB6erun+1dIrFmJPsbi1aLR7Op+lc99x62xUXe4xYtSl26iuGbsTLQ1xsnZGuoIMd2tabSMK7ohceDp9xdvTXJhI7HIdfbj95Irt4kcpykfRHomSKhr2J6uw7pGZLuYTquZRmHvFfF0+fs+rP4l045+rb0r8apuGaWOw1bWfFtZ/wBfjL4fpAmKtOjA27q5SyHTMOz20E6Ak7SSO871B4FlLN3gtO0E5mGnfXq6rL+kefQVLPktHR9hmYTqQI9Wpj1CpHiOLVVZJiRBIOoB7u4xzJHrqo3eK/Jil0zAcqQAIbNbYAHUQswdNdKjl6Q4nEXEuMOrUq4+bVghKpclsxkzMc9IFddGTWmkjnqRubbLGXyKuVWCgZQzS0Ko7MM3ZGnPurkxdvOrXWdMiEKzEm5BJUAMqSJ7S+0GqpjuPPiFuBl7JE+xiQJ9fuqd4e4/N+KI26238cMKsoiJ02HsXLkF7rmNYARdTbkfWj5xTHprsbEpbJ6uzbBC2zmaWYzdZDJ32Ez41XcDfVC7sYAXeJ3+TfhXecWlwXGRwwULPh848b+Otb0VFoxqWmbeK8ZuBWPWZQuIVQVAAyZbRbUD9s1z4y+WGKliwynLqSIOHDadwMTXB0iMWruuvXLz3PV2P/NbHIIxEnZV9pwpH9jXoVWcXdf70e41yUwvg+G96GuO4v8AtNthuwupGm4QqPUZrbfuDq8NqJz4afUpmsbhHXWII/WXPfEGtSpp/RlYa+y6+QFYfGeKWT77tOmk95DxF7Gj9mz7Ju04K87VOjunas9oooqFClB+UB+rwf37vwt036VXlxwZuJhACBD3N57k2A3oBF5dY0odCpg6GrJb4X2pzH6IMKACZkEy3h3Vz4jhSqJJnkJYmJ25DapYtEBQBVk4XhR1yJCEHNuinaO+eZ38KsGK6td2ScpgSImdBA/CqSykJw643mIzaTKgkes7CK7sHgVSDcNsMDJDuxiCdWREbTTn31JYC2lp1YwYV5gb+b9YAHmPXWziF62VYvvkIAnQ6GNBGuvjWcstnqXLlh2V/NfVFtkAaDLtAygkgwPGrfgejVy5bS4b4GZVIBUtlI0OpYbweQ3NVK9xy2c0KGaCA0LpPcYmrBw/pYqoqQwA72B31OpG0nQchAqPR3Zo0tTaSa9ErgEfK/5Wv/cry30QykE3wdQSOqAmDr2s+hPfrWFvpOD9I/8ATW9OPA/T+FZfTejX5r7hxDgV24ZV7cRzLb69ymo1+il7qyga1mzZtWbLMQJ7FSo4uT9L4Vl+cm+t8Ki6dRK9VsgsP0YxgdTcuWXVRAALaDSAJXbSt2H6KXlJM29ST5x5knu8an7GLYq7FjCAHQTqTyAGugNUnj3SjFLiGWzcdbYVOyyBTJUEkhkzc6ktNFjNlgPRi6+jFBqDoZM7bGoHCYG895biMFRWu2yoJXzWuKkqNDErr4Vt6PdIsY99M757YMuOyDk2JU5JkEyO8iNtasCYEKym2YUszlSZnMxYsCdQf2f/AGqw09uUSU7wyo2eG4xsqO9lwwBAuLI1WdSFB2qfwnCx8jvoyooMMRbLAE5LbIQTMEMgMbaeNV7i74u1kKXCSFWGABIXKPOEeO8V1cF4te+QYm47FmUxrA7IW3A0HifbXSjnZ3vwK0M+V3AMzMEaG1sQZ2X3+FRV/okCGy3w0K8TlElb7IwgjkACT9aR41lh+Mi6LhViCJkNA0LGO16BMcvGtOKxbi20mQVxIMMrb3iTMHTUz41Iw8GnI9xnQxkLkO5HXqinKDmU5ZuGDoBLR6OU1zX+jIBxRa4wWyQJZYDMc0iTy6xMojfTwrPEcXebpDkFrlsyGI2FoH1QDWy70puhbstnVjbEMAeTk+O4B9Va2sm44sTwVFt2L2c5rhs9kgQA4Ekc40qG4U03bWg88D08qstzjy3Xw9q5ZQsotKrAkBc4tttBgAnbwrC/iMLicZbe2LiO1y0AmUQWBVY00Ex76JMy2XDyAtNzGfcs/G7TppZeSyzhxica+GZDbZbEIh0QjrAfQCZPtpm1QFFFFAFLXyvsqrhS+wa7tvqqaCmVSr8uGICJhCfr3f6UoiMXycRUeZbJ21bTaY31rhv3y05go8NW7zz2qIucTP0R6yf7Vy3MQW3J9HKrklEvfxKI/nfQYctzljYabVpucWGXKi+k6DnPrqIVZraturtsYR0viy27EaHYRvE6+oVgADyJ8TE1lat+FdSIO6tqBlyMbFtOYPqipKwlr9v3Vptp4e2u7Dproqn2104MXZ02LCHlc/6a7rXDk8faPwrGzaI1yqP3hXWmbmB7T+FZcmbSRq/N6ftVtTCoNi3tNZn0VtsW8zKneY9XM+yaw5M0kifwGHyWOcsQ3edYyj90D2mlx0rvKMbdzESOr7v+HbpidI+H3L1kJbum1DgkrOqwRl0YECSD6qWHEeHm1fe0x6xkiXyEkyobx2BjflXGbNws6ODY60rMWdV7MbjvWpfAdJETFJbzh7VxQJGvV3CWAIjcHsgj0HlrGcDwqs7A2g3Zn9Tm5ryy+NaeMYTJiEZLRRQRMWio9MBasX/ES5GPjsECxYCGykEcjt7Dp6Kgn4YBgcUqAgsuYj9qBO+3m7emvOjnHwwFq8TLaI7Ag5jsjEiDJBgzvprNWS9Yz2bygAMyESdj2SFnTbWtNkFLZAs5xcOU6iCDuCwjSayu49AHyXNSt4aBhOdwVns+vw8KtfH+EpdW7mBRredxG/8A81hPhA99VbinBjhS4JVweuUErt1bhJ8DsQdN6KWCNGrE4yy5cmMzOrBlDAkdjMSsZTsx5a16uBW51nUzcRTbJyggyQ4806nbl31hedWz5VTdDoh0EgGNNK3KIZ4UDzIhCI/WagRp6a3yRnOqRessQRPUEeIAtjTvGhr3ALlx9vwxK+64K23L5FtBuAts6hjl1UysiFOkSK3uqDGIwBVvlSyuuUw/nAkSDPLUa1HEJl78gIi5jR3LZ+N2nVSd8h9rLfx4kEfNbfeu6EcqcVYNBRRRQHlKHy/j5vB/fu/026b9Kby7+ZhPv3f6UqpWyN0hIi1WxLBrvtKvM+wf+al8NwZXW0wuL87eW0q6zmJVZJAiAWEiZggxrXRJIxbZAJarot2h41Y7PAgVusrEranOSriMqNc1VlBXRSNY1iui5wRUFw9ZbORra5SrZibilliBEQrbnlVtEor1qwh5t7B+NdlvALv2j+7+NTycHjrc2T5psrQGMmXGkDQdg6tG4rZjOG9TkLFe2uYBc2mgOsgd41Gm/dTeNpF2MKo+uPYa7bVuOZPqFd+K4a9vNmI7KlueoFxbekjWWYEeFbRwt+s6vMubIzjUxlGbLy3eAV++u01NxaOMEVkbgroXAsbdq5IPWtlUdoGSzqNYg6odiYkTvWbcMf505lItEhoJ1AV2zrpqpCQCfrL36Q0cgPt9NSXCbepfuIUekkE+6PbUbiLeRipOoAOm2oDc/A1PYW1ktqpGu59J1Ps29Vc280bXBKYg9n1j40qOk4/22/t5w7vqL+waatxtPZ8RSn6SmcbiI/4h+mV+iOVTU4EDPgq9ttvNPd3r/wDTv8K6eKYSRnBTsxv6Y+yqOY3rl4KGznfzT/vDpzXmB7qmbiOQR3gj/wCOufDLrV01cSTdSKpjF+bnYr3eDQI+bEbnn3d1MDoV0g+UWntXJ65F0aDFxFAAaT9PXWdxr3xQeIKyq6spGunzrNzXSIhtI1Ph4V5wq+yIz29HSGDdYRqNVOSMrxGx0oBs4/CC5buKWCko6homMyuNRImq/wAdsaXg4APVY9wJB+naYEVIdG+Npi7RYaXVWLiARBKtqv7J921SXEcKt1LiOCAy3VzCMwDAAwSO41pcGWxc8c4Ple8yHRTaJGp0djAEtA1G3sioQ3WQv1gM5kH0QQO3voavXG8K6DElh2WSzkMjtdWzFvHTMvdvXBxPhYuXriroQiNsCZzXhsRrWkn2JfkqmMfsL/8AbTv/AGfDw7633rh+WjwxJ/7norn4jZbq7bgNlNtAT9HTSPTNbsSf9uIg6Yk8z/xO7lUstDO8h/8A8TxD02/671OOk/5FdMXxIftp/XepwVg0FFFFAeUpvLv5mD+/d+CU2aVHl1HYwf37v9KVqHJmXAnlHpqcwmMu2sMjrZARb6XBdIJDNaLFEfvhi3amY7M1Dqg76nsPxK38mt2HUtluqzaKAUDliM3nGQSuU9nnvXZnNAMVikN22toJqesQK0pmt3BBzMSOxnbtE7TsIrPGcSxGXM4SLpRtAdDbt9keEpdDeMg6V13OMJcOIJUj5QltXGaSDbR1zBtNzknvAZToa5Me3WWrSKCCgGaYiRbs2xljcRazax50cpJIWbj0gd+tzW7XzpDNHWQGGftL29+2dDI8K6sTxdroXOR2RAidoUR/0+81X1wjVst2G7qOKG5llvcXe5mzZe0CvPZrguGNfrAerTxrbhuK3EfrFyZsqLqJGW31eXQ8/m119MRUJYQ89K3qxrLiVMlF4q6rbQBYtsGBgkkq1xlzSYMG42w9M1mOLXO35vzihW0gEBOr0A0BjXTn7KjA8bms1aedZkqRpckhhmN26C0ciYnZAB74A9dThbQ1w8BswrXDGvZHoG8ev4VKqw7xXL2dH4MLeJJgR6TNKrjxzYzEHKrfOv5x7jHd4U2bAg7ik5xvL8rxBLR89d2P7bVZ8CBv4fb+cX5q0dYhz2TOkHsnf41ZDw4/Y8N+/wD/AM6pEW/rN7anc+B6sOXu5vqZiWn4euaui6TTJqK3aN/GeHkKG+TWU38xt4BbUZByB/0BULYsHJe+bUwNSTqu+q9nf2VjicZYKsFt3Afok3CRPeRFc10pEqTqNQSdD/eKS5si4OzgvErtlzctafXEwrABjlIHKD7RNN3A423ftm5bMj5wEHzlOmjDkf7EGkXMc6sXRvpB8kdiBNu4e2p87KJAymfOhidd4FVPsGhr4vCpdR0uKrIVWQSeU89xULe4c9vEs5KlGRFVp1zB3aCNxo2+2lTa3FZM6sCrIpU96kSD7CK2MFYkEAgqN/TWrrKMPIs8bYB4ajcwixr/AMyNq1cb4d1eJ6wKIN+SZM6vy1ip/pTwwWsI6oh6pVGXUsVOeSCTrEk61xdJ/OkbdapEbavM1LTRcplv8jSEYviU/XX/ALl6m3S18l9pRi8eRuWWf4l6mVWWaTtHtFFFQp5Sr8uPmYT793+lKalKzy3rKYT793+lKseTMuBRBPRU9w+xbNsF7eZtdfWfHuqGVANqlMFxJ7aBFywJiQeZJ7/Gu9yjmNX7ycm4rmO5eLcfuyVuYK0qq3VgggHQ66zynw15Daue8qQMqZdefPwGtC8Wfnl9h/Gh8ZnHajTuFT8mo8Oq/RmOztpNPzvbr6JfC8CZxhzm/Xs4ByGFKTIEsMx08B4nWPF4QzWrl0MIts4yMCHITqxMTprcUEawY3molbm0f69FZZjPp/0amToTlzo+y3Db6wmLLXNLZzQrZSAhcTJ1BnUcp0rlt8Hdrdm5Ol24UAVZYa5VMZgDmKtAkeb41Gm5rznmecd1eq2xk0yUk8Twool25nLC1d6v9WRJ+s0tKDTuPLaakF6Mub7WBcGZbeecu/aCgEZtNTMydI0nQV8OdZJ13319NSPA7Je5PJRP4D26+qsTfY3EtGG4cbdq1JGVuyT3a+ce+TmPqrc+Eyi4ZnIwUwDqdZnuXQ689NK0ZT31sFsc2j0mKy7Q5Ou3wxs6oSAWQP4STGQ+M6Upb/Rw3sUwDD5y9i4GSX+ZaSFWRnY5tBIAjUxTKF6yNWur++NzJ/saT3HMITibrIwZWfrFMgaXO2I13Ex6uVZbXdhOjvTo3OGW6Tlc3xbIKjIFLFILQR1gYTknzday4vwrqrnyMFGdXtobnVqoi6EKG5chsoGaNCdpk1X/AM33e7n9Zdztz30r1sFe2IOvLMNcsjv1gg0TS7htMmLfRYs2KUOw+TjXPaZSTkuXCXUn5tItsAx3LJtm0wxvBbdrDrcN5XJ6iUVGD2+vtvcXMx7LCEjSe/SIMT8gunlyjzl2AkDfuHurIcMvGRlmBJGZdlkTvyg0teRaON8vL/W1ZW2AmY2Mac9K3/my7r2Nt9RppPf3Ufm+5BOXaZ1Gka/2NNy8i0W7oT0kdbow7szpcyqkkk22AhQs/QIAEctCOcsjrDm0HL+9I/hYa3dt3Jy5WDA6HUajSfCKcPBeIpeGjDMNGAMwQeXh+Iq71ZnB3LcbLP8Areqt0r4PdcZrSl5dWZARIhsxKjmPDerS1sxzrxrR3/vR+io6PJwxOJx33lj9+7TCqodDsAtu7iLi6FwmYTpILmR3TNW+oio9oooqlPKqHTzom/EBZCXFt9UzE5lJnMAI0I7qt9FE6yRqxQjySXvtVv8Aht/lWY8k137Tb/ht+NNuitb5E2oVH6Kbv2i3+4340DyU3ftNv9xvxpsUU3sbUKpPJbeH+9J+4341sXyZXh/vNv8Acb8aaNFN7G1Cw/Rnd+0W/wBxvxr39Gl37Rb/AHG/GmdRTextQsx5NbnO+n7rfjUlwzoO1kNN1GLEa5TsBoPaT7avNFS82a9FXHRhvrp+6aq/SfyZ38VdFxcUltQgTLkY8ySdCN5Hspo15UeQJT9Ct77Zb/hN/lWQ8jF4GRjLe/8Aw2j+qnTRUolCV/Qvf+22/wCG3+VH6Fr32u1/Df8Ayp1UUpCkJdPIxeH+92/4b/5V7+hu/EfK7f8ADf0x53fPtpz0U2om1CXfyN3yI+WW/wCG2sT+14/CsP0K3vtdv1W2/wAqddFKRaQlR5Fb32y3/Cb/ACrt4b5KMTZuLcTGWpU7dW0Hw86m7RRpMUisL0aeNbiT4KYr09Gn+unsNWeiqUieEcLayXJYHNGw7p/GpaiigCiiigCiiigCiiigCiiigCiiigCiiigPKK9ooAooooAooooDyivaKAKKKKA8or2igCiiigCiiigCiiigCiiigP/Z"  width="500" height="500">
+        
+      </a>
+      <p>Şehitler Hiyabanı" (Azerice: Şəhidlər Xiyabanı), 1918 yılında Bakü Muharebesinde öldürülmüş Azerbaycan Türk'ü ve Türkiye Türk'ü askerlerin defnedildiği yer. 1924-1990 yılları arasında Hiyaban adı değiştirilmiş ve bolşevikler burada eğlence kompleksleri yaparak adını Dağüstü Park olarak değiştirmişlerdi. 1990 yılında Kara Ocak denilen olaydan sonra bu alan yine "Şehitler Hiyabanı" adını almıştır.
+        1990 yılında isim değişikliği için resmi izni Bakü Büyükşehir Belediyesi ve ilgili kurumlar vermesi gerekiyordu. Bakü'de olağanüstü hâl ilan edilmişti. Resmi devlet kurumlarının yetkilerini şehir komutanlığı almıştı. İdare ve kurumların kapısı mühürlenmişti. O dönemde Azer Nebiyev həmin 26 Bakı Komissarı İl Parti Komitesinin birinci katibi Veli Memmedov ve il Belediye kurulunun başkanı Ali Memmedov'un yardımı ile bu konuyu halletmişti. Yukarıda sözü edilen kurumlar askerlerin kontrolüne geçmiş, ofis kapıları mühürlenmişti. Azer Nebiyev boş bir blank bulmuş ve aynı blankta çatışmada ölenlerin Dağüstü Parka gömülmesi için izin verildiğini açıklamıştı.[1]  
+      </p>
+
+
+    </div><br>
+    <div class="video-container">
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/RSZtRHn8qHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+  </div>
+    
+      
+    
+
+    <div class="content" id="Baku_Tarihi">
+      <h2>Bakü Tarihi</h2>  
+      <p>Azerbaycan, Avrasya'nın Kafkasya bölgesinde bir ülke. Doğuda Hazar Denizi, kuzeyde Rusya'nın Dağıstan bölgesi, kuzeybatıda Gürcistan, güneybatıda Ermenistan ve Türkiye ve güneyde İran ile sınırlıdır. Azerbaycan Cumhuriyet'nin yaklaşık 10 milyona yaklaşan nüfusunu bir Türk etnik grubu olan Azerbaycanlılar ve çeşitli diğer etnik gruplar oluşturmaktadır.
+
+        Azerbaycan'ın 11. yüzyılda Büyük Selçuklu İmparatorluğu'na katılması, Azerbaycan halkının şekillenmesinde önemli rol oynar.[1]
+        
+        11. yüzyılın başlarında bölge, o zamanlar bir Türkmen etnik adını benimseyen Orta Asya'dan gelen Oğuz Türklerinin dalgaları tarafından yavaş yavaş işgal ediliyordu. Bu Türk hanedanlarının ilki 1067 yılında Azerbaycan'ı işgal eden Selçuklu İmparatorluğu'dur..[1][2]
+        
+        Bölge hanedanlarından biri olan Şirvanşahlar, Timurlu Devleti çatısı altında bir devlet haline geldikten sonra Altın Orda Devleti'ne karşı savaşta Timurlular'a yardım etmişlerdir. Timur'un ölümünden sonra bölgede iki bağımsız ve rakip Türk devleti ortaya çıktı: Kara Koyunlu ve Ak Koyunlular Azerice konuşan[3][4] Türk boylarının bir konfedere devletiydi. Şirvanşahlar ise bu süreçte yeniden bağımsız hale gelerek yerel yönetimlerini güçlendirdiler.
+        
+        Safevi hükümdarlarının ana dili Azerice idi, devletin yıkılışına kadar Safevi sarayında konuşuldu.[5] · [6] · Devletin feodal beyleri Azerice konuşan Kızılbaş aşiretlerinden oluşuyordu. ve devlet yönetiminde üstünlük onlardaydı. benzer şekilde Safevilerin devlet ordusunu oluşturdular.[7] · [8] · [9]
+        
+        Safevilerden sonra bölge Afşar hanedanı tarafından yönetildi. Nadir Şah'ın (h. 1736-1747) ölümünden sonra, onun eski tebaasının çoğu istikrarsızlığın patlamasından çıkar sağladı. Azerbaycanda çeşitli yarı bağımsız biçimlerine sahip çok sayıda kendi kendini yöneten Azerbaycan hanlıklar[10] ortaya çıktı. Hanlıklar, Orta Asya ve Batı arasındaki uluslararası ticaret yolları aracılığıyla kendi işlerini kontrol ediyorlardı.
+        
+        1813 ve 1828 yıllarındaki Rus-İran Savaşları sonrasında, Rus İmparatorluğu'nun baskısıyla Kaçar İmparatorluğu tüm Kafkas topraklarını terk etmek zorunda kaldı ve 1813 yılındaki Gülistan ve 1828 yılındaki Türkmençay anlaşmaları ile Çarlık Rusyası ve İran Kaçarı arasındaki sınır kesinleşmiş oldu.[11][12] Aras Nehri'nin kuzeyindeki bölge, aralarında çağdaş Azerbaycan Cumhuriyeti'nin toprakları da dahil olmak üzere, 19. yüzyılda Rusya tarafından işgal edilene kadar İran egemenliğindeydi.[13][14][15][16][17][18] Türkmençay Antlaşması sonucunda Kaçar İranı, Erivan Hanlığı, Nahçıvan Hanlığı ve Talış Hanlığı'ndan geri kalan topraklar ve günümüz Azerbaycan Cumhuriyeti topraklarının İran hakimiyetinde kalan son toprak parçaları üzerindeki Rus egemenliğini tanıdı.[19]
+        
+        Kafkasya'da 80 yıldan uzun süren Rus İmparatorluğu egemenliğinden sonra, 1918'de Azerbaycan Demokratik Cumhuriyeti kuruldu. Önde gelen Müsavat partisinin siyasi nedenlerle[20][21] kabul ettiği "Azerbaycan" adı, 1918'de Azerbaycan Demokratik Cumhuriyeti'nin kurulmasından önce, yalnızca çağdaş kuzeybatı İranına bitişik bölgeyi tanımlamak için kullanılırdı.[22][23][24] Devlet 1920'de Sovyet kuvvetleri tarafından işgal edildi ve 1991'de Sovyetler Birliği'nin çöküşüne kadar Sovyet egemenliği altında kaldı ve bu tarihten sonra modern Cumhuriyet kuruldu.
+        
+        </p>
+    </div>
+    <div class="about" id="Hakkında">
+    <h2>Kendim Hakkında Bilgiler</h2>  
+    <p>Ben Rashad Yılmaz 25.12.2003 doğumluyum Baküde dünyaya gözlerimi açtım. 2009 yılında okula başladım ve 2021yılındada okulu bitirdim. Okul hayatım çok başarlıydı. Okul zamanı pek çok spor dallarıylar uğraştım:Futbol 
+      Basketbol,Badminton,Karate gibi. Bu spor dallarıyla uğraşmama rağmen okulda notlarım hep yüksek oldu. bu mesleği seçmemin asıl sebeplerinden biri bilgisayar dünyasına aşık olmamdı ve ilk kendime bilgisayar alırken bunu farkettim.
+      Ondan sonra okulumda ki Hocalarıma söyledim ve onlarda bena yardım etmeye başladılar.Öncelikle Ruminyada 3. olduk okul adına.Projemiz telefon bağımlılığıyla alakalı kısa bir video oldu o videonun çekimi kurgusu her bir şeyini kendimiz yaptık.
+      Ondan sonra Arduino ve başka projelerle uğraşmaya başladık.Türkiyeni seçmemin asl nedenlerinden birisi burda daha çok kendimi gelişticeğimi düşünmem oldu. Universiteyi bitirdidikden sonra yüksek lisansı Almanyada yapmak istiyorum.
+    </p>
+    </div>
+  </body>
+</html>
+
+
+
+
+
